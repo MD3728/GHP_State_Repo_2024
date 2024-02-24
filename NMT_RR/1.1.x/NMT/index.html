@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <title>NMT</title>
+    <style>
+      body{
+        padding: 0;
+        margin: 0;
+        background-color: rgba(50, 150, 50, 1);
+      }
+
+      #CenterDisplay{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 20px solid rgb(81, 81, 81);
+      }
+    </style>
+    <script src="../p5_library/p5.js"></script>
+    <!-- <script src="../p5_library/p5.sound.js"></script> DOES NOT WORK -->
+    <script src="stats.js"></script>
+    <script src="graphics.js"></script>
+    <script src="entity.js"></script>
+    <script src="particle.js"></script>
+    <script src="seedpacket.js"></script>
+    <script src="plant.js"></script>
+    <script src="zombie.js"></script>
+    <script src="collectible.js"></script>
+    <script src="projectile.js"></script>
+    <script src="mouse.js"></script>
+    <script src="transition.js"></script>
+    <script src="draw.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!-- Div added to ensure canvas stays in middle of screen -->
+    <div id = "CenterDisplay">
+      <main>
+      </main>
+    </div>
+
+  </body>
+</html>

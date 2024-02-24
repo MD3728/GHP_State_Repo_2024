@@ -1,0 +1,170 @@
+/* For Create Account Page (createAccount.js) */
+
+/* Navigation Bar */
+#homeNav{
+  position: relative;
+  left: 25%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#loginNav{
+  position: relative;
+  left: 70%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#generalNav{
+  position: relative;
+  width:100%;
+}
+
+/* General Looks */
+.middleSection{
+  height: 85vh;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+#generalDiv{
+  height:100vh;
+  top:15%;
+  position:relative; 
+}
+
+#mainInfoDiv{
+  text-align: center;
+}
+
+#homepageText{
+  position: relative; 
+  top: 20px; 
+  left: 50px;
+}
+
+/* Create Div */
+#createDiv{
+  position: relative;
+  width: 70%;
+  height: 60%;
+  left: 15%;
+  top: 15%;
+}
+
+#createButton{
+  position:absolute; 
+  top: 85%; 
+  left:40%;
+}
+
+/* Text */
+#createAccountText{
+  font-weight:600;
+}
+
+/* Warning Text */
+#usernameWarning{
+  position: absolute;
+  font-size: 16px;
+  color: red;
+  top: 20%;
+  left: 20%;
+  text-align: center;
+  display: none;
+}
+
+#passwordWarning{
+  position: absolute;
+  font-size: 16px;
+  color: red;
+  top: 20%;
+  left: 20%;
+  text-align: center;
+  display: none;
+}
+
+/* Encompassing Div */
+#loginInputs{
+  position:absolute; 
+  top:5%; 
+  left:50%;
+  margin-left:-30%;
+  width: 400px;
+  height: 450px;
+  text-align: right;
+}
+
+/* Username Div */
+#usernameInputs{
+  position:absolute; 
+  top:25%; 
+  left:15%;
+  width: 400px;
+  text-align: left;
+}
+
+#usernameText{
+  position:absolute; 
+  top:10px; 
+  left:10px;
+  text-align: right;
+}
+
+#usernameInput{
+  position:absolute; 
+  top:10px; 
+  left:120px;
+  width: 200px;
+  text-align: left;
+}
+
+/* Password Div */
+#passwordInputs{
+  position:absolute; 
+  top:35%; 
+  left:15%;
+  width: 400px;
+  text-align: left;
+}
+
+#passwordText{
+  position:absolute; 
+  top:10px; 
+  left:10px;
+  text-align: left;
+}
+
+#passwordInput{
+  position:absolute; 
+  top:10px; 
+  left:120px;
+  width: 200px;
+  text-align: left;
+}
+
+/* Confirm Password Div */
+#confirmPasswordInputs{
+  position:absolute; 
+  top:45%; 
+  left:15%;
+  width: 400px;
+  text-align: left;
+}
+
+#confirmPasswordText{
+  position:absolute; 
+  top:10px; 
+  left:-75px;
+  text-align: left;
+}
+
+#confirmPasswordInput{
+  position:absolute; 
+  top:10px; 
+  left:120px;
+  width: 200px;
+  text-align: left;
+}
+
+

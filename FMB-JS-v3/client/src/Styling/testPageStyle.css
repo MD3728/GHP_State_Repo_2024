@@ -1,0 +1,199 @@
+/* Styling For Testing Page (testPage.js) */
+
+/* Navigation Bar */
+#homeNav{
+  position: absolute;
+  left: 23%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#profileNav{
+  position: absolute;
+  left: 48%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#logOutNav{/*Must keep at least one element relative */
+  position: relative;
+  left:75%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#generalNav{
+  position: relative;
+  width:100%;
+}
+
+/* General Styling */
+input[type="submit"]{
+  width: 100px;
+}
+
+.middleSection{
+  height: 85vh;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+#generalDiv{
+  height: 100vh;
+  position:relative; 
+}
+
+#biggerDiv{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+/* Test Navigation and Display */
+#testNameDisplay{
+  font-size:25px;
+  font-weight: bold;
+}
+
+#answerChoices{
+  position:absolute;
+  top: 35%;
+  left:10%;
+  width:80%;
+  height:60%;
+  border: 6px solid black;
+}
+
+#questionDisplay{
+  position:absolute; 
+  top: 15%; 
+  left: 10%;
+  width: 80%;
+  background-color: rgba(245, 245, 245, 0.6);
+  border: 6px solid black;
+}
+
+#answerDisplay{
+  position:absolute; 
+  top:0px; 
+  left:0px;
+}
+
+#next{
+  position:absolute; 
+  top:85%; 
+  left:60%;
+}
+
+#back{
+  position:absolute; 
+  top:85%; 
+  left:30%;
+}  
+
+/* Multiple Choice */
+#A{
+  position:absolute; 
+  top:23px; 
+  left:100px;
+  display:none;
+}
+
+#B{
+  position:absolute; 
+  top:73px; 
+  left:100px;
+  display:none;
+}
+
+#C{
+  position:absolute; 
+  top:123px; 
+  left:100px;
+  display:none;
+}
+
+#D{
+  position:absolute; 
+  top:173px; 
+  left:100px;
+  display:none;
+}
+
+#E{
+  position:absolute; 
+  top:223px; 
+  left:100px;
+  display:none;
+}
+
+#F{
+  position:absolute; 
+  top:273px; 
+  left:100px;
+  display:none;
+}
+
+/* Multiple Select */
+#a{
+  position:absolute; 
+  top:23px; 
+  left:100px;
+  display:none;
+}
+
+#b{
+  position:absolute; 
+  top:73px; 
+  left:100px;
+  display:none;
+}
+
+#c{
+  position:absolute; 
+  top:123px; 
+  left:100px;
+  display:none;
+}
+
+#d{
+  position:absolute; 
+  top:173px; 
+  left:100px;
+  display:none;
+}
+
+#e{
+  position:absolute; 
+  top:223px; 
+  left:100px;
+  display:none;
+}
+
+#f{
+  position:absolute; 
+  top:273px; 
+  left:100px;
+  display:none;
+}
+
+/* Free Response */
+#response{
+  position:absolute; 
+  top:20px; 
+  left:50%;
+  width:60%;
+  height:65%;
+  margin-left: -30%;
+  display: none;
+  resize: none;
+}
+
+/* Submit */
+#submitTest{
+  position:absolute; 
+  top:50px; 
+  left:75%;
+}
+
+

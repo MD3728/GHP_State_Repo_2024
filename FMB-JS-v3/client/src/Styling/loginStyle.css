@@ -1,0 +1,152 @@
+/* For login.js */
+/* Navigation Bar */
+/* #homeNav{
+  position: relative;
+  left: 0%;
+  margin-left:0;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+#loginNav{
+  position: relative;
+  align-items: right;
+  border: 3px solid white;
+  border-radius: 5px;
+  left: 100%;
+  width: 70px;
+  margin-left: -70px;
+} */
+
+/* #generalNav{
+  position: relative;
+  width:100%;
+  justify-content: space-between;
+  display: flex;
+} */
+
+#generalNav{
+  position: relative;
+  width:100%;
+}
+
+#homeNav{
+  position: relative;
+  left: 25%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#loginNav{
+  position: relative;
+  left: 70%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+/* General Looks */
+.middleSection{
+  /* background-color: rgba(100,100,100,0.15); */
+  height: 85vh;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+#generalDiv{
+  top:15%;
+  position:relative; 
+}
+
+#homepageText{
+  text-align: center;
+  position: relative; 
+  top: 20px; 
+  left: 0px;
+}
+
+/* Login Interface */
+#loginText{
+  font-size: larger;
+  position: absolute; 
+  top: 40px;
+  left: 35%;
+  font-size:30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#loginDiv{
+  z-index: 2; 
+  position: relative; 
+  top: 10%;
+  left: 0%;
+  width: 100%;
+  height: 80%;
+}
+
+#loginButton{
+  position:absolute; 
+  width: 120px;
+  top: 50%;
+  margin-left: -60px;
+}
+
+/* Username Div */
+#usernameInputs{
+  position:absolute; 
+  top:25%; 
+  left:15%;
+  width: 400px;
+  text-align: left;
+}
+
+#usernameText{
+  position:absolute; 
+  top:10px; 
+  left:10px;
+  text-align: left;
+}
+
+#usernameInput{
+  position:absolute; 
+  top:10px; 
+  left:120px;
+  width: 200px;
+  text-align: left;
+}
+
+/* Password Div */
+#passwordInputs{
+  position:absolute; 
+  top:35%; 
+  left:15%;
+  width: 400px;
+  text-align: left;
+}
+
+#passwordText{
+  position:absolute; 
+  top:10px; 
+  left:10px;
+  text-align: left;
+}
+
+#passwordInput{
+  position:absolute; 
+  top:10px; 
+  left:120px;
+  width: 200px;
+  text-align: left;
+}
+
+/* Other */
+#createAccountButton{
+  font-size: larger;
+  position: absolute; 
+  width: 200px;
+  top: 75%; 
+  left: 50%;
+  margin-left: -100px;
+}
+
+

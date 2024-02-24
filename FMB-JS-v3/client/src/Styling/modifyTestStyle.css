@@ -1,0 +1,417 @@
+/* CSS For Modify Test Page */
+
+/* Navigation Bar */
+#homeNav{
+  position: absolute;
+  left: 15%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#profileNav{
+  position: absolute;
+  left: 36%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#editNav{
+  position: absolute;
+  left: 55%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#logOutNav{/*Must keep at least one element relative */
+  position: relative;
+  left:76%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#generalNav{
+  position: relative;
+  width:100%;
+}
+
+/* General Styling */
+#smallerDiv{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#testDiv{
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  width: 90%;
+  height: 95%;
+}
+
+#biggerDiv{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#questionDiv{
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  width: 90%;
+  height: 95%;
+}
+
+.middleSection{
+  height: 85vh;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  /* text-align: center; */
+}
+
+#generalDiv{
+  height: 100vh;
+  position:relative; 
+}
+
+input[type="submit"]{
+  width: 100px;
+}
+
+/* Question Section */
+/* For Input Text Boxes */
+#buttonDiv{
+  display: block;
+}
+
+#confirmAddDiv{
+  display: none;
+}
+
+#addQuestion{
+  position: absolute;
+  top:500px; 
+  left:150px;
+}
+
+#cancelAdd{
+  position: absolute;
+  top:500px; 
+  left:280px;
+}
+
+#answerBox{
+  position:absolute; 
+  top:270px; 
+  left:200px;
+}
+
+#questionBox{
+  position:absolute; 
+  top: 220px; 
+  left: 200px;
+}
+
+#questionIDBox{
+  position:absolute; 
+  top: 85px; 
+  left: 200px;
+}
+
+/* For Text Box Side Text */
+#questionIdTag{
+  position:absolute; 
+  top:85px; 
+  left:50px;
+}
+
+#questionTag{
+  position:absolute; 
+  top:220px; 
+  left:50px;
+}
+
+#answerTag{
+  position:absolute; 
+  top:270px; 
+  left:50px;
+}
+
+#typeTag{
+  position:absolute; 
+  top:135px; 
+  left:50px;
+}
+
+#answerChoiceTag{
+  position:absolute; 
+  top:320px; 
+  left:50px;
+}
+
+/* Query Buttons */
+#updateQuestion{
+  position:absolute; 
+  top:500px; 
+  left:420px;
+}
+
+#newQuestion{
+  position:absolute; 
+  top:550px; 
+  left:150px;
+}
+
+#deleteQuestion{
+  position:absolute; 
+  top:550px; 
+  left:280px;
+}
+
+#nextQuestion{
+  position:absolute; 
+  top:500px; 
+  left:280px;
+}
+
+#backQuestion{
+  position:absolute; 
+  top:500px; 
+  left:150px;
+}
+
+/* Question Types */
+#mcTypeLabel{
+  position:absolute; 
+  top: 125px; 
+  left: 200px;
+}
+
+#msTypeLabel{
+  position:absolute; 
+  top: 155px; 
+  left: 200px;
+}
+
+#freeTypeLabel{
+  position:absolute; 
+  top: 185px; 
+  left: 200px;
+}
+
+/* Multiple Choice Options */
+#opt1Label{
+  position:absolute; 
+  top: 350px; 
+  left: 100px;
+}
+
+#opt2Label{
+  position:absolute; 
+  top: 400px; 
+  left: 100px;
+}
+
+#opt3Label{
+  position:absolute; 
+  top: 450px; 
+  left: 100px;
+}
+
+#opt4Label{
+  position:absolute; 
+  top: 350px; 
+  left: 400px;
+}
+
+#opt5Label{
+  position:absolute; 
+  top: 400px; 
+  left: 400px;
+}
+
+#opt6Label{
+  position:absolute; 
+  top: 450px; 
+  left: 400px;
+}
+
+/* Multiple Select Options */
+#opt7Label{
+  position:absolute; 
+  top: 350px; 
+  left: 100px;
+}
+
+#opt8Label{
+  position:absolute; 
+  top: 400px; 
+  left: 100px;
+}
+
+#opt9Label{
+  position:absolute; 
+  top: 450px; 
+  left: 100px;
+}
+
+#opt10Label{
+  position:absolute; 
+  top: 350px; 
+  left: 400px;
+}
+
+#opt11Label{
+  position:absolute; 
+  top: 400px; 
+  left: 400px;
+}
+
+#opt12Label{
+  position:absolute; 
+  top: 450px; 
+  left: 400px;
+}
+
+/* Answer Choice Boxes */
+#answer1{
+  position:absolute; 
+  top: 350px; 
+  left: 150px;
+  width: 200px;
+  height: 30px;
+}
+
+#answer2{
+  position:absolute; 
+  top: 400px; 
+  left: 150px;
+  width: 200px;
+  height: 30px;
+}
+
+#answer3{
+  position:absolute; 
+  top: 450px; 
+  left: 150px;
+  width: 200px;
+  height: 30px;
+}
+
+#answer4{
+  position:absolute; 
+  top: 350px; 
+  left: 450px;
+  width: 200px;
+  height: 30px;
+}
+
+#answer5{
+  position:absolute; 
+  top: 400px; 
+  left: 450px;
+  width: 200px;
+  height: 30px;
+}
+
+#answer6{
+  position:absolute; 
+  top: 450px; 
+  left: 450px;
+  width: 200px;
+  height: 30px;
+}
+
+/* Test Styling */
+/* For Input Text Boxes */
+#testIDBox{
+  position:absolute; 
+  top: 80px; 
+  left: 40px;
+  width: 150px;
+}
+
+#testNameBox{
+  position:absolute; 
+  top:165px; 
+  left:40px;
+  width: 150px;
+}
+
+#testQuestionBox{
+  position:absolute; 
+  top:250px; 
+  left:40px;
+  width: 150px;
+}
+
+#testTimeBox{
+  position:absolute; 
+  top:400px; 
+  left:40px;
+  width: 150px;
+}
+
+/* For Text Box Side Text */
+#testIDTag{
+  position:absolute; 
+  top:40px; 
+  left:40px;
+}
+
+#testNameTag{
+  position:absolute; 
+  top:125px; 
+  left:40px;
+}
+
+#testQuestionTag{
+  position:absolute; 
+  top:210px; 
+  left:40px;
+}
+
+#testTimeTag{
+  position:absolute; 
+  top:385px; 
+  left:40px;
+}
+
+/* Query Buttons */
+#updateTest{
+  position:absolute; 
+  top:400px; 
+  left:80px;
+}
+
+#newTest{
+  position:absolute; 
+  top:350px; 
+  left:30px;
+}
+
+#deleteTest{
+  position:absolute; 
+  top:350px; 
+  left:140px;
+}
+
+#backTest{
+  position:absolute; 
+  top:300px; 
+  left:30px;
+}
+
+#nextTest{
+  position:absolute; 
+  top:300px; 
+  left:140px;
+}
+
+#instructionText{
+  position:relative;
+  top:410px; 
+  font-size: 16px;
+}
+

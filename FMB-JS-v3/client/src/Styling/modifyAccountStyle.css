@@ -1,0 +1,216 @@
+/* CSS For modifyAccount.js */
+/* Navigation Bar */
+#homeNav{
+  position: absolute;
+  left: 15%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#profileNav{
+  position: absolute;
+  left: 36%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#editNav{
+  position: absolute;
+  left: 55%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#logOutNav{/*Must keep at least one element relative */
+  position: relative;
+  left:76%;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#generalNav{
+  position: relative;
+  width:100%;
+}
+
+/* General Styling */
+input[type="submit"]{
+  width: 100px;
+}
+
+.middleSection{
+  height: 85vh;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+/* ? */
+#generalDiv{
+  height: 100vh;
+  position: relative; 
+}
+
+/* Central Div */
+#biggerDiv{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+/* Left Side */
+#editingDiv{
+  position: absolute;
+  top:3%;
+  left: 0%;
+  width:60%;
+  height: 100%;
+}
+
+/* Right Side */
+#instructionsDiv{
+  position: absolute;
+  top:15%;
+  left: 65%;
+  width:35%;
+  height: 70%;
+}
+
+/* Edit Inputs/Display */
+#idBox{
+  position:absolute; 
+  top:85px;
+  left:250px;
+}
+
+#usernameBox{
+  position:absolute; 
+  top:335px; 
+  left:250px;
+}
+
+#passwordBox{
+  position:absolute; 
+  top:385px; 
+  left:250px;
+}
+
+#testBox{
+  position:absolute; 
+  top:435px; 
+  left:290px;
+}
+
+/* Account Select */
+#adminTypeLabel{
+  position:absolute; 
+  top:175px; 
+  left:200px;
+}
+
+#teacherTypeLabel{
+  position:absolute; 
+  top:225px; 
+  left:200px;
+}
+
+#studentTypeLabel{
+  position:absolute; 
+  top: 275px; 
+  left:200px;
+}
+
+#buttonDiv{
+  display: block;
+}
+
+#confirmAddDiv{
+  display: none;
+}
+
+#addAccount{
+  position: absolute;
+  top:500px; 
+  left:200px;
+}
+
+#cancelAdd{
+  position: absolute;
+  top:500px; 
+  left:330px;
+}
+
+#idTag{
+  position:absolute; 
+  top:85px; 
+  left:100px;
+}
+
+#typeTag{
+  position:absolute; 
+  top:135px; 
+  left:100px;
+}
+
+#usernameTag{
+  position:absolute; 
+  top:335px; 
+  left:100px;
+}
+
+#passwordTag{
+  position:absolute; 
+  top:385px; 
+  left:100px;
+}
+
+#testTag{
+  position:absolute; 
+  top:435px; 
+  left:100px;
+}
+
+#changeTest{
+  position:absolute;
+  top:435px; 
+  left:550px;
+  width: 150px;
+  font-size: 15px;
+}
+
+/* Edit Buttons */
+#updateAccount{
+  position:absolute; 
+  top:600px; 
+  left:200px;
+}
+
+#newAccount{
+  position:absolute; 
+  top:550px; 
+  left:200px;
+}
+
+#deleteAccount{
+  position:absolute; 
+  top:550px; 
+  left:330px;
+}
+
+#next{
+  position:absolute; 
+  top:500px; 
+  left:330px;
+}
+
+#back{
+  position:absolute; 
+  top:500px; 
+  left:200px;
+}
+
+/* Other */
+#instructionText{
+  position:absolute;
+  margin: 5%;
+  font-size: 20px;
+}

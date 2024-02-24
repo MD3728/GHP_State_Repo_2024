@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "URL Word Block",
+  "description": "Currently Testing",
+  "author": "MD3728",
+  "version": "1.0.0",
+
+  "browser_specific_settings":{
+    "gecko": {
+      "id": "wordurlbl@md3728.com"
+    }
+  },
+  
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }],
+  "permissions": ["activeTab", "scripting", 
+  "tabs", "storage", "file://*/*", "nativeMessaging"]
+}
